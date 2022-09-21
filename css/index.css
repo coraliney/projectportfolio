@@ -1,0 +1,11 @@
+body {
+    background-color: #ebebeb;
+    font-size: 8px;
+}
+
+section > article > section {
+    background-color: whitesmoke;
+    align-items: center;
+    float:right;
+font-size:medium;
+  }
