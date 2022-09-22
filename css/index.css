@@ -1,11 +1,29 @@
-body {
-    background-color: #ebebeb;
-    font-size: 8px;
+/*everything*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-section > article > section {
-    background-color: whitesmoke;
+/* navigeringen, menyn */
+.menylista{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    float:right;
-font-size:medium;
-  }
+    position: sticky;
+    top:0;
+    background-color: #0F1626;
+}
+
+.menylista ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+/* Fonten på menyn */
+.menylista ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+}
